@@ -1,0 +1,28 @@
+header{
+    color:blue;
+}
+
+body{
+    background-color: orange;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#left-sidebar{
+    width: 30%;
+    border-right: 1px solid black;
+    padding-right: 30px;
+}
+
+#right-sidebar{
+    width: 35%;
+    margin-left: 40%;
+    background: red;
+}
+
+hr{
+    border: 1px solid black;
+}

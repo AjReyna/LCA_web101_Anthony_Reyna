@@ -1,0 +1,61 @@
+h1 {
+    width: 60%;
+    margin 5% auto;
+    align-self: auto;
+}
+
+/*body {
+    
+}
+*/
+
+article:hover:first-letter {
+    font-size: 200%;
+    color: black;
+}
+
+main {
+    
+    width: 60%;
+    margin: 5% auto;
+    background: pink;
+}
+
+main:hover{
+    background-color: blue;
+}
+
+article:hover {
+    color:#1ace84;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border: 0;
+    background-image: none;
+    }
+  
+  article.green:hover { color: #1ace84; }
+  article.purple:hover { color: #a262c0; }
+  article.teal:hover { color: #4ac0aa; }
+  article.violet:hover { color: #8c78ba; }
+  article.pink:hover { color: #d529cd; }
+
+
+
+article {
+    margin: 1% auto;
+    border: solid grey 2px;
+    width: 60%;
+    background: white;
+    
+    
+
+}
+
+article > h3 {
+    font-size: 2em;
+    color: red !important;
+}
+
+#thing{
+    color: green;
+} 
