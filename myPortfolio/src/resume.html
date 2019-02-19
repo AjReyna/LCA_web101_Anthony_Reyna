@@ -1,69 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Resume</title>
-    <link rel="stylesheet" href="resume-style.css">
-    <header><h1>Raoul Duke<h1></header>
+	<title>Elliot Alderson Resume</title>
+	<link rel="stylesheet" type="text/css" href="resume-style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
-    <main>
-        <div>
-            <div id='left-sidebar'>
-                <p>Doctor of Journalism</p>
-                 <img src="./raoul-duke.jpg" alt="gonzo" height="80" width="80">
-                 <div>
-                        <h3>Personal Info</h3>
-                        <ul>
-                            <h4>Address</h4>
-                            <li>1234 Sunset Strip, Los Angeles, CA</li>
-                            <h4>Phone</h4>
-                            <li>555-555-5555</li>
-                            <h4>E-mail</h4>
-                            <li>na@spoofemail.com</li>
-                            <h4>Date of Birth</h4>
-                            <li>1933-01-19</li>
-                            <h4>LinkedIn</h4>
-                            <li>linkedIn.com/in/jsmith_zety</li>
-                            <h4>Twitter</h4>
-                            <li>twitter.com/jsmith_zety</li>
-                        </ul>
-                     </div>
-            </div>
-           
-        </div>
 
- <div id="right-sidebar">
-     <h2>Experience</h2>
-     <p>Rolling Stone, Sports Illustrated</p>
-     <h3>Responsibilities</h3>
-     <ul>
-         <li>Chivas Regal</li>
-         <li>Journalism beoming of a Doctor</li>
-         <li>Truth, Freedom, The American Way</li>
-     </ul>
-     <br>
-     <hr>
-     <br>
-     <h3>Education</h3>
-     <ul>
-         <li>Louisville High</li>
-         <li>Athenaeum Literary Association</li>
-     </ul>
-</div>
-        
+	<div class="container">
+		<div class="hero">
+			<h1 class="name"><strong>Elliot</strong> Alderson</h1>
+			<span class="job-title">Developer</span>
+			<span class="email">e.alderson@protonmail.com</span>
 
-        
+			<h2 class="">Security and Systems analyst for E corp
+				and AllSafe
+			</h2>
+		</div>
+	</div>
+
+<!-- Skills and intrest section -->
+	<div class="container">
+
+		<div class="sections">
+			<h2 class="section-title">Skills</h2>
+
+			<div class="list-card">
+				<span class="exp">+ 5 years</span>
+				<div>
+					<h3>Object oriented programming & frameworks</h3>
+					<span>PHP, Symfony, Laravel, …</span>
+				</div>
+			</div>
+			
+			<div class="list-card">
+				<span class="exp">+ 3 years</span>
+				<div>
+					<h3>Penetration Testing</h3>
+					<span>Style and tools, JS Frameworks</span>
+				</div>
+			</div>	
+					
+			<div class="list-card">
+				<span class="exp">+ 6 years</span>
+				<div>
+					<h3>Linux</h3>
+					<span>Scripting, Servers management and protocols, Automation</span>
+				</div>
+			</div>
 
 
+		</div>
+		<div class="sections">
+				<h2 class="section-title">Interests</h2>
+				
+				<div class="list-card">
+					<div>
+						<h3>Scripting languages</h3>
+						<span>PHP, JS, Bash, Python</span>
+					</div>
+				</div>	
+
+				<div class="list-card">
+					<div>
+						<h3>Hacking</h3>
+						<span>Linux, Crawlers, Bots, Network</span>
+					</div>
+				</div>		
+		</div>
+	</div>
+
+	<!-- Achievements -->
+
+	<div class="container cards">
+		
+		<div class="card">
+			<div class="skill-level">
+				<span>+</span>
+				<h2>60</h2>
+			</div>
+
+			<div class="skill-meta">
+				<h3>Projects</h3>
+				<span>Adapting and creating solutions for customer's needs</span>
+			</div>
+		</div>
+
+			
+		<div class="card">
+			<div class="skill-level">
+				<h2>50</h2>
+				<span>%</span>
+			</div>
+
+			<div class="skill-meta">
+				<h3>Web</h3>
+				<span>Applications development integrating third-party services and mobile client(s)</span>
+			</div>
+		</div>
+
+			
+		<div class="card">
+			<div class="skill-level">
+				<h2>30</h2>
+				<span>%</span>
+			</div>
+
+			<div class="skill-meta">
+				<h3>Technical solutions</h3>
+				<span>Such as web services, scripts, configurations</span>
+			</div>
+		</div>
 
 
+		<div class="card">
+			<div class="skill-level">
+				<h2>20</h2>
+				<span>%</span>
+			</div>
 
-    </main>
-      
-    
+			<div class="skill-meta">
+				<h3>Leading</h3>
+				<span>Web projects and ensure the quality of delivery</span>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Timeeline -->
+
+	<div class="container">
+		<ol class="timeline">
+		  <li>
+		    <p class="line">Experiences</p>
+		    <span class="point"></span>
+		    <p class="description">
+		      Lead Developer @LCA lol
+		    </p>
+		    <span class="date">Today - Apr. 2016</span>
+		  </li>
+
+		  <li>
+		    <span class="point"></span>
+		    <p class="description">
+		      Freelance
+		    </p>
+		    <span class="date">Apr. 2016 - Sep. 2015</span>
+		  </li>
+
+		  		  <li>
+		    <p class="line">Education</p>
+		    <span class="point"></span>
+		    <p class="description">
+		      NYU
+		    </p>
+		    <span class="date">2015 - 2013</span>
+		  </li>
+
+		  		  <li>
+		    <span class="point"></span>
+		    <p class="description">
+		      Art & Design studies
+		    </p>
+		    <span class="date">2013 - 2008</span>
+		  </li>
+		</ol>
+
+	</div>
+
+
+	<br><br>
+
+
+	<footer class="container">
+		
+	</footer>
+
+
 </body>
 </html>
