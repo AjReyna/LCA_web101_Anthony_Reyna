@@ -56,7 +56,7 @@ footer {
       "banner  footer";
   }
   nav ul {
-    display: flex;
+    display: grid;
     justify-content: space-between;
   }
 }
@@ -85,6 +85,17 @@ body {
     grid-gap: 10px;
     background-color: #fff;
     color: #444;
+  }
+
+  .wrapper2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 9rem;
+    margin: 0 auto;
+    border: 1px solid #0000;
+    background: lightgray;
   }
   
   .box {
