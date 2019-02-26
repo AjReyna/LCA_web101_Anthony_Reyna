@@ -109,6 +109,7 @@ footer {
     top: 5%;
     margin-top: 5px;
   }
+<<<<<<< HEAD
 
   .content .logo {
     height: 140px;
@@ -141,3 +142,22 @@ footer {
     top: 0;
   }
 }
+=======
+  
+  button {
+    grid-column: 2/3;
+    margin: 3% auto;
+    width: 70%;
+    height: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 20px; 
+    padding-bottom: 5%;
+    text-align: center;
+    color: white;
+    letter-spacing: 16px;
+    font-style: italic;
+  }
+>>>>>>> 48f7f8451682fcb8a3e1ec9d64734c0112f02c17
