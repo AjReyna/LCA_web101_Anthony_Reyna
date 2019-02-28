@@ -28,16 +28,24 @@ main {
     
 }
 
-
+/*
 #newimage{
     margin-left: 200px;
-    max-width: 200px;
+    max-width: 10px;
     min-height: 280px;
-}
+}*/
 
+
+/*
 .logo {
-    display: grid;
-    grid-auto-columns: 3em;
-    grid-auto-rows: 12px;
+    display: subgrid;
+        min-block-size: 20px;
+        max-block-size: 100px;
+        border-block-end-color: aqua;*/
 }
 
+body {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(200px, 1fr));
+}
