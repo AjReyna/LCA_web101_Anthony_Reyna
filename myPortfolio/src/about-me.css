@@ -1,0 +1,77 @@
+
+
+address {
+    text-align: center;
+    grid-area: address;
+}
+
+body {
+    background-color: red;
+    grid-area: header;
+  }
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    grid-area: h1;
+}
+
+h2 {
+    text-align: center;
+    grid-area: h2;
+}
+
+h3 {
+    text-align: center;
+}
+
+code {
+    color: blue;
+}
+
+blockquote {
+    text-align: center;
+    color: white;
+    grid-area: blockquote;
+}
+
+ol {
+    grid-area: ol;
+}
+
+.activities {
+    grid-area: activities;
+}
+
+.code {
+    grid-area: code;
+}
+
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "h1"
+    "h2"
+    "code"
+    "h3"
+    "activities" 
+    "ol"   
+    "blockquote"
+    "form"
+    "address"
+    "fieldset"
+}
+
+/*
+@media (max-width: 320px){
+  body{
+    grid-template-columns: 1fr 2fr 1fr;  
+    grid-template-areas: 
+        "h1 blockquote code"
+        "h2 form"
+        
+    
+  }
+}
+*/
