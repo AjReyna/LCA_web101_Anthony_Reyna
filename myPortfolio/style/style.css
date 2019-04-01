@@ -1,163 +1,145 @@
 body {
-  background: rgba(0, 0, 0, 0.9);
-  margin: 0;
-  color: #fff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.showcase::after {
-  content: '';
-  height: 100vh;
-  width: 100%;
-  background-image: url(agriculture-cloudscape-cloudy-skies-129539.jpg);
-  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../src/img/agriculture-cloudscape-cloudy-skies-129539.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  display: block;
-  height: 100vh;
-  width: 100vw;
-  
+  background-size: 100% 100%;
   
 }
 
+.logo {
+  width: 25%;
+  height: 80%;
+  margin: 3% 10%;
+  border-radius: 60%;
+}
 
+header {
+  /*border: 3px solid white;*/
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+}
 
+main {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
 
-.content {
-  position: absolute;
-  z-index: 1;
-  top: 10%;
-  left: 50%;
-  margin-top: 105px;
-  margin-left: -145px;
+nav > a {
+  margin: 2% 1% 3%;
+  height: 10%;
+  width: 15%;
+  color:orange;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 25px;
+  background: transparent;
+  padding: 20px; 
+  text-align: center;
+  /*border: 2px solid white;*/
+}
+
+.has-border {
+  border-radius: 25px;
+  border: 2px solid red;
+  background: none;
+  padding: 20px; 
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+#profile-pic {
   width: 300px;
-  height: 350px;
-  text-align: center;
-  transition: all 1000ms;
-}
-
-.content .logo {
-  height: 180px;
-  width: 180px;
+  height: 300px;
   border-radius: 50%;
+  margin: 15% auto;
+  grid-column: 2/3;
 }
 
-
-.content .title {
-  font-size: 2.2rem;
-  margin-top: 1rem;
+h1 {
+  color:white;
+  grid-column: 2/3;
+  margin: 3% auto;
+  border-bottom: 2px solid #1940A9;;
 }
 
-.content .text {
-  line-height: 1.7;
-  margin-top: 1rem;
+h2 {
+  color:white;
+  grid-column: 2/3;
+  margin: 3% auto;
+  font-style: italic;
 }
 
-.container {
-  max-width: 960px;
-  margin: auto;
-  overflow: hidden;
-  padding: 4rem 1rem;
-}
-
-.grid-3 {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.grid-2 {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.center {
+button {
+  grid-column: 2/3;
+  margin: 3% auto;
+  width: 70%;
+  height: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 25px;
+  background: transparent;
+  padding: 20px; 
+  padding-bottom: 5%;
   text-align: center;
-  margin: auto;
+  color: white;
+  letter-spacing: 16px;
+  font-style: italic;
 }
 
-.bg-light {
-  background: #f4f4f4;
-  color: #333;
-}
-
-.bg-dark {
-  background: #333;
-  color: #f4f4f4;
-}
-
-footer {
-  padding: 2.2rem;
-}
-
-footer p {
-  margin: 0;
-}
-
-footer {
-    font-size: 25px;
-}
-
-/* Small Screens */
-@media (max-width: 560px) {
-  .showcase::after {
-    height: 50vh;
+@media (min-width: 320px) and (max-width: 500px){
+  body {
+    height: 100%;
   }
 
-  .content {
-    top: 5%;
-    margin-top: 5px;
-  }
-<<<<<<< HEAD
-
-  .content .logo {
-    height: 140px;
-    width: 140px;
+  h1 {
+    color: green;
+    font-size: 30px;
   }
 
-  .content .text {
-    display: contents;
-  }
-
-  .grid-3,
-  .grid-2 {
-    grid-template-columns: 1fr;
-  }
-
-  .services div {
-    border-bottom: #333 dashed 1px;
-    padding: 1.2rem 1rem;
-  }
-}
-
-/* Landscape */
-@media (max-height: 500px) {
-  .content .title,
-  .content .text {
-    display: contents;
-  }
-
-  .content {
-    top: 0;
-  }
-}
-=======
-  
-  button {
-    grid-column: 2/3;
-    margin: 3% auto;
-    width: 70%;
-    height: 15%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    border-radius: 25px;
-    background: transparent;
-    padding: 20px; 
-    padding-bottom: 5%;
+  h2 {
     text-align: center;
-    color: white;
-    letter-spacing: 16px;
-    font-style: italic;
+    font-size: 10px;
   }
->>>>>>> 48f7f8451682fcb8a3e1ec9d64734c0112f02c17
+
+  #profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+  }
+
+  .has-border {
+    font-size: 10px;
+    border-radius: 50px;
+    padding: 10px 10px 25px 10px;
+    text-align: center;
+    font-size: 8px;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  nav, a {
+    height: 5%;
+    width: 100%;
+
+    
+  }
+
+  button {
+    font-size: 10px;
+    letter-spacing: 5px;
+    padding-bottom: 25px;
+    padding-right: 90px;
+    border-radius: 25px;
+    border: 3px solid rgb(172, 15, 15);
+  }
+}
