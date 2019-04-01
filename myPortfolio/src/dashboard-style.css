@@ -13,6 +13,7 @@ main {
   grid-area: main;
 }
 nav {
+  
   background-color: lightsalmon;
   grid-area: nav;
 }
@@ -107,7 +108,7 @@ footer {
   }
   nav ul {
     display: grid;
-    justify-content: space-between;
+    justify-items: self-start;
   }
 }
 
