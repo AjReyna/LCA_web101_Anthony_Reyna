@@ -135,12 +135,17 @@ button {
   }
 
   button {
-    font-size: 10px;
-    letter-spacing: 5px;
+    width: 1em;
+    letter-spacing: 1px;
     padding-bottom: 25px;
-    padding-right: 90px;
+    padding-right: 24px;
     border-radius: 25px;
     border: 3px solid rgb(172, 15, 15);
+  }
+
+  #portfolio {
+    font-size: 10px;
+    letter-spacing: 3px;
   }
 }
 
