@@ -1,0 +1,24 @@
+
+*{
+    grid-template-rows: 2em 10em 15em;
+    border: 2px solid red;
+}
+
+body {   
+    height: 100%;
+    border: 1px solid purple;
+}
+
+header {
+    border: 2px solid orange;
+    text-align: center;
+    
+}
+
+h2 {
+    text-align: center;
+}
+ 
+address {
+    
+}
