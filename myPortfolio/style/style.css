@@ -6,9 +6,14 @@ body {
   
 }
 
+body, html{
+  padding:0 !important;
+  margin: 0 !important;
+}
+
 .logo {
-  width: 25%;
-  height: 80%;
+  width: 10em;
+  height: 10em;
   margin: 3% 10%;
   border-radius: 60%;
 }
