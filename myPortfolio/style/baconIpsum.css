@@ -1,64 +1,95 @@
-header {
-    
-    display:flex;
-    justify-content: flex-end;
-    
-    background-color: blue;
-}
-
-nav {
-    border: 3px solid black;
+.container {
     display: flex;
-    justify-content: flex-start; 
-    width:35%;
-
+    justify-content: space-evenly;
+    
+   /* background-image: url("../src/img/sandwich-311262_960_720.png");
+    background-size: 5em;
+    background-color: transparent;
+    background-color: rgba(255, 0, 0, 0.4);
+    */
 }
 
-li { margin-left:10%;
-    flex-wrap: nowrap;
+.container > div {
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffeead;
+    flex: 1;
+}
+
+#facebook {
+    
+    padding-left: 1em;
+    background-color: transparent;
+    background-color:  blueviolet;
+}
+
+#instagram {
+    
+    background-color: transparent;
+    background-color: #AFEEEE;
+    
     
 }
 
+#aboutMe {
+    
+    border: 5px solid #454545;
 
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
-    flex-wrap: nowrap;
-    padding: 15px;
+    
 }
-
-#facebook img{
-    /*background-image: url(../src/img/Facebook-logo.webp);*/
-    width: 20px;
-    border-radius: 10px;
-}
-
-
-
-
 
 main {
     display: grid;
-    grid-template-rows: 35em 30em 33em;
+    grid-template-rows: 50em 30em;
     border: 3px solid red;
-    
-    
+    background-color: aqua;
 }
 
+h3{ 
+    text-align: center;
+    background-color: blue;
+}
+
+article {
+   /* display: grid;
+    grid-template-columns: 1fr;
+    */
+    justify-content: space-evenly;
+    
+    
+    max-width: 300px;
+    min-height: 400px;
+    background-color: white;
+    border: 5px solid black;
+
+}
+
+
+
+/*.new {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 50em;
+    margin-top: 1em;
+}*/
+
+p{
+    text-align: center;
+}
 #box1 {
     border: 2px solid orange;
-    background-image: image()
-    
+   background-color: #00FF00;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
 }
 
-#box2 {
-    border: 2px solid green;
-    
-}
-
-#box3 {
-    border: 2px solid black;
-    
+.welcome {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 5em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
