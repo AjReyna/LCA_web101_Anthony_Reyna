@@ -10,13 +10,13 @@ h1 {
 }
 
 main {
-  background-color: rgba(233, 215, 229, 0.185);
+  background-color:#000(233, 215, 229, 0.185);
   min-height: calc(100vh - 54px);
   grid-area: main;
 }
 nav {
   margin-top: 5em;
-  background-color: rgba(52, 129, 71, 0);
+  background-color: rgba(57, , 67, 0);
   grid-area: nav;
 }
 aside {
@@ -24,7 +24,7 @@ aside {
   grid-area: aside;
 }
 .banner {
-  background-color: lavender;
+  background-color: black;
   grid-area: banner;
 }
 
@@ -38,7 +38,7 @@ footer {
   }
   
   #list_section h3 {
-  color: white;
+  color: goldenrod;
   margin: 0px auto;
   padding: 20px;
   }
